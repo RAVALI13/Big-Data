@@ -1,0 +1,11 @@
+start=$SECONDS;hadoop jar JavaHDFS-0.0.1-SNAPSHOT.jar HDFSFileUpload.HDFSFileUpload.HDFSFileUploadCom /user/rxn152730/assignment4in/ /user/rxn152730/assignment4out/;duration=$(( SECONDS - start ));echo 'The running time of WordCount in Mapreduce is:';echo $duration
+
+The running time of Word Count is 29
+
+start=$SECONDS;hadoop jar JavaHDFS-0.0.1-SNAPSHOT.jar HDFSFileUpload.HDFSFileUpload.WordCountBooks /user/rxn152730/assignment4in/ /user/rxn152730/assignment4out/;duration=$(( SECONDS - start ));echo 'The running time of WordCount in Mapreduce is:';echo $duration
+
+The running time of Word Count is 23
+
+start=$SECONDS;hadoop jar JavaHDFS-0.0.1-SNAPSHOT.jar HDFSFileUpload.HDFSFileUpload.WordCountExt /user/rxn152730/assignment4in/ /user/rxn152730/assignment4outext/;duration=$(( SECONDS - start ));echo 'The running time of WordCount in Mapreduce is:';echo $duration
+
+The running time of Word Count is 23
